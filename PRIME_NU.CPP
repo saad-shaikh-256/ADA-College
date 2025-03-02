@@ -21,13 +21,13 @@ void main()
    {
       if (num % i == 1)
       {
-         printf("%d is prime number :)", num);
-         break;
+	 printf("%d is prime number :)", num);
+	 break;
       }
       else
       {
-         printf("%d is not a prime number :(", num);
-         break;
+	 printf("%d is not a prime number :(", num);
+	 break;
       }
    }
    getch();
