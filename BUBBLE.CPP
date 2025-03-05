@@ -18,7 +18,7 @@ void sortedArray(int arr[])
 }
 int main()
 {
-
+   clrscr();
    int arr[5], i, j, temp, size = 5;
    printf("Enter Array Value\n");
    for (i = 0; i < size; i++)
@@ -40,10 +40,14 @@ int main()
             arr[j] = temp;
          }
       }
+      printf("\n\n After %d Iteration:\n", i + 1);
+      sortedArray(arr);
    }
 
-   printf("\n Sorted  Array:\n");
+   printf("\n \n Sorted  Array:\n");
    sortedArray(arr);
+
+   getch();
 
    return 0;
 }
