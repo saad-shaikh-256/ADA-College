@@ -19,9 +19,9 @@ void sortedArray(int arr[])
 int main()
 {
 
-   int arr[5], i,j,temp, size = 5;
+   int arr[5], i, j, temp, size = 5;
    printf("Enter Array Value\n");
-   for (i = 0; i <size; i++)
+   for (i = 0; i < size; i++)
    {
       scanf("%d", &arr[i]);
    }
@@ -29,19 +29,17 @@ int main()
    printf("Original Array:\n");
    printarray(arr);
 
-   for ( i = 0; i < size-1; i++)
+   for (i = 0; i < size - 1; i++)
    {
-      for ( j = i+1; j < size; j++)
+      for (j = i + 1; j < size; j++)
       {
-         if (arr[i]>arr[j])
+         if (arr[i] > arr[j])
          {
             temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
          }
-
       }
-
    }
 
    printf("\n Sorted  Array:\n");
