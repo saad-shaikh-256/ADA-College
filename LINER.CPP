@@ -25,7 +25,8 @@ int main()
       {
          printf("\n\nThe index of %d is %d", num, i);
       }
-      else{
+      else
+      {
          printf("Invalid Number");
       }
    }
